@@ -1,0 +1,35 @@
+.footer__link{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    margin-right: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+}
+.footer__link:last-child{
+    margin-right: 0;
+}
+
+.footer__link:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+@media screen and (min-width: 425px) and (max-width : 768px) {
+    .footer__link{
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .footer__link{
+        margin-bottom: 32px;
+    }
+    .footer__link:last-child{
+        margin-bottom: 0;
+    }
+}

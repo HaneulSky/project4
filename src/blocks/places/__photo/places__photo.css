@@ -1,0 +1,26 @@
+.places__photo{
+    max-width: 460px;
+    height: auto;
+}
+
+@media screen and (max-width : 1024px) {
+    .places__photo{
+        max-width: 440px;
+        height: auto;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width : 768px) {
+    .places__photo{
+        max-width: 340px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .places__photo{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+    }
+}

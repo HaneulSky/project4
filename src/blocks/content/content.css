@@ -1,0 +1,19 @@
+.content{
+    margin: auto;
+}
+
+/* Основной код для разрешения 1024px */
+@media (min-width : 2560px) {
+    /* стили для больших мониторов с разрешением 4K */
+}
+@media (max-width : 768px) {
+    /* стили для планшета */
+}
+@media (max-width : 375px) {
+    /* стили для среднего смартфона */
+}
+@media (max-width : 320px) {
+    .content{
+        max-width: 320px;
+    }
+}

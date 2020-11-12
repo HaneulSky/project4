@@ -1,0 +1,17 @@
+@import url("../../blocks/fonts/font-face.css");
+
+.page{
+    background-color: #2A2C2F;
+    min-width: 1280px;
+    max-width: 1480px;
+    margin: 0 auto;
+    font-family: Inter, arial, sans-serif;
+    color: #fff;
+}
+
+@media screen and (max-width : 1024px) {
+    .page{
+        min-width: 0;
+        max-width: 100%;
+    }
+}

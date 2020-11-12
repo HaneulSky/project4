@@ -1,0 +1,6 @@
+.header__languages{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-decoration: none;
+}

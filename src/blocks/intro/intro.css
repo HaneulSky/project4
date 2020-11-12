@@ -1,0 +1,37 @@
+@import url("../intro/__title/intro__title.css");
+@import url("../intro/__subtitle/intro__subtitle.css");
+@import url("../intro/__content-row/intro__content-row.css");
+@import url("../intro/__text-accent/intro__text-accent.css");
+@import url("../intro/__text-caption/intro__text-caption.css");
+@import url("../intro/__text-info/intro__text-info.css");
+@import url("../intro/__text/intro__text.css");
+@import url("../intro/__text-about/intro__text-about.css");
+
+.intro{
+    max-width: 984px;
+    margin: auto;
+    padding-bottom: 92px;
+}
+
+/* Основной код для разрешения 1024px */
+@media screen and (max-width : 1024px) {
+    .intro{
+        padding: 0 48px 102px 48px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .intro{
+        padding: 0 24px 97px 24px;
+     }
+}
+@media screen and (min-width: 321px) and (max-width : 375px) {
+    .intro{
+    max-width: 343px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .intro{
+       max-width: 288px;
+       padding-bottom: 64px;
+    }
+}

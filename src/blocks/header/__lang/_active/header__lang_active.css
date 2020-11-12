@@ -1,0 +1,15 @@
+.header__lang_active{
+    text-decoration: underline;
+    margin-right: 18px;
+}
+
+.header__lang.header__lang_active{
+    text-decoration: underline;
+}
+
+@media screen and (min-width : 320px) and (max-width : 375px) {
+    .header__lang_active{
+        margin-right: 16px;
+        flex: 1;
+    }
+}

@@ -1,0 +1,29 @@
+.lead__caption{
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+
+/* Основной код для разрешения 1024px */
+@media screen and (max-width : 1024px) {
+    /* стили для больших мониторов с разрешением 4K */
+}
+@media screen and (max-width : 768px) {
+    .lead__caption{
+        margin-left: 24px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .lead__caption{
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.15em;
+        margin: 8px auto 0;
+        max-width: 288px;
+    }
+}

@@ -1,0 +1,14 @@
+.header__logo{
+    margin-right: auto;
+    max-width: 176.58px;
+}
+
+/* Основной код для разрешения 1024px */
+
+
+@media screen and (min-width : 320px) and (max-width : 375px) {
+    .header__logo{
+       max-width: 142px;
+       flex: 1;
+    }
+}

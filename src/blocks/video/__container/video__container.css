@@ -1,0 +1,35 @@
+.video__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1184px;
+    margin-top: 72px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .video__container{
+        max-width: 100%;
+        margin-top: 56px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width : 375px) {
+    .video__container{
+        max-width: 343px;
+    }
+}
+@media screen and (max-width : 425px) {
+    .video__container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width : 320px) {
+    .video__container{
+        max-width: 288px;
+    }
+}

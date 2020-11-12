@@ -1,0 +1,9 @@
+.video__item.video__item-bg{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -10;
+}
+

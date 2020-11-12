@@ -1,0 +1,31 @@
+.comments__container{
+    display: flex;
+    margin-top: 72px;
+}
+
+/* Основной код для разрешения 1024px */
+@media (min-width : 2560px) {
+    /* стили для больших мониторов с разрешением 4K */
+}
+@media screen and (max-width : 768px) {
+    .comments__container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+/*
+@media screen and (max-width : 375px) {
+    .comments__container{
+        flex-wrap: wrap;
+    }
+} */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .comments__container{
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .comments__container{
+        margin-top: 40px;
+    }
+}

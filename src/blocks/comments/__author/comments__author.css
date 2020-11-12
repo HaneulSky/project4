@@ -1,0 +1,27 @@
+.comments__author{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* Основной код для разрешения 1024px */
+@media screen and (max-width : 1024px) {
+    /* стили для больших мониторов с разрешением 4K */
+}
+@media screen and (max-width : 768px) {
+    .comments__author{
+        order: 2;
+        text-align: center;
+        margin: 0 auto 24px;
+    }
+}
+/*
+@media screen and (max-width : 375px) {
+    .comments__author{
+        order: 2;
+        text-align: center;
+        margin: 0 auto 24px;
+    }
+} */

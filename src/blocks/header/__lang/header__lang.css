@@ -1,0 +1,24 @@
+@import"./_active/header__lang_active.css";
+
+.header__lang{
+    list-style: none;
+    color: #fff;
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    text-decoration: none;
+}
+
+.header__lang:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 375px) {
+    .header__lang{
+        font-size: 18px;
+        line-height: 17px;
+        flex: 1;
+    }
+}

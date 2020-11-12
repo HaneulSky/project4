@@ -1,0 +1,45 @@
+.cover__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    max-width: 1094.27px;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+    margin-top: 274px;
+    margin-bottom: 0;
+}
+
+ /* Основной код для разрешения 1024px */
+ @media screen and (max-width : 1024px) {
+    .cover__title{
+        max-width: 720px;
+        margin-top: 211px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .cover__title{
+        margin-top: 165px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width : 375px) {
+    .cover__title{
+        max-width: 343px;
+        margin-top: 104px;
+    }
+}
+@media screen and (max-width : 425px) {
+    .cover__title{
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .cover__title{
+        max-width: 288px;
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,10 @@
+.intro__text-about{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen {
+    .intro__text-about{
+        display: none;
+    }
+}
